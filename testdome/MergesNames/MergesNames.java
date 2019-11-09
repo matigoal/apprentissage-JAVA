@@ -1,5 +1,5 @@
-import java.util.Arrays; //importation Java Array class java.util.Arrays usage des listes
-import java.util.HashSet; //importation Java HashSet util.HashSet class  mécanisme de hachage
+import java.util.Arrays; //importation  java.util.Arrays usage des listes
+import java.util.HashSet; //importation java.util.HashSet class  mécanisme de hachage
 import java.util.Set; //importation jav.util.Set  empêche les doublons
 //déclaration de la méthode
 public class MergeNames {
@@ -8,6 +8,7 @@ public class MergeNames {
         listnames.addAll(Arrays.asList(listnames2));
         return listnames.toArray(new String[0]);
     }
+    //méthode principale
     public static void main(String[] args) {
         String[] listnames1 = new String[] {"Ava", "Emma", "Olivia"};//list 1
         String[] listnames2 = new String[] {"Olivia", "Sophia", "Emma"};//list 2
